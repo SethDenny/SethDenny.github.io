@@ -104,13 +104,21 @@
       <h2> Or you can save my contact information as follows:</h2>
         <h2>Cell: (757)404-8482</h2>
       <h2>Email: sethdenny02@gmail.com</h2>
-      <form action=”mailto:sethdenny02@gmail.com”
-      method=”POST” enctype=”multipart/form-data” name=”EmailForm”> Name:<br>
-      <input type=”text” size=”19″ name=”ContactName”><br><br>
-      Message:<br> <textarea name=”ContactComment” rows=”6″ cols=”20″>
-        </textarea><br><br> 
-        <button type="submit">Submit</button>
-      </form>
+      <form
+  action="https://formspree.io/f/moqypvqa"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
   </body>
 <html>
       
